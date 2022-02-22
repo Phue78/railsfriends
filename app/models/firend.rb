@@ -1,0 +1,2 @@
+class Firend < ApplicationRecord
+end

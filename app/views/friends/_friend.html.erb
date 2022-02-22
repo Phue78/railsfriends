@@ -1,0 +1,15 @@
+<div id="<%= dom_id friend %>">
+
+  
+    <tr>
+      <td>
+        <%= link_to friend.first_name + ' ' + friend.last_name, friend %>
+      </td>
+      <td><%= friend.email %></td>
+      <td><%= friend.phone %></td>
+      <td><%= friend.twitter %></td>
+      <td><%= link_to 'Delete', friend, class:"btn btn-outline-danger btn-sm", method: :delete, data: { confirm: 'Are u sure?' } %></td>
+    </tr>
+  
+
+</div>
